@@ -21,7 +21,7 @@ const Navbar = () => {
   <nav>
     <div className="nav-center">
       <div className="nav-header">
-        <img src={logo} alt="Logo" />
+        <img src={logo} className="logo-img" alt="Logo" />
         <button className="nav-toggle" onClick={() => setShowLinks(!showLinks)}>
           <FaBars />
         </button>

@@ -230,3 +230,7 @@ nav {
     color: var(--clr-primary-7);
   }
 }
+
+.logo-img{
+  max-width: 100px;
+}
