@@ -1,4 +1,4 @@
-# Grocery Application
+# React Navbar Application
 
 #### Desktop Navbar view
 
