@@ -1,31 +1,35 @@
 import React from 'react'
-import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import Home from '../Home/Home';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
+import Project from '../Project/Project';
+
 export const links = [
   {
     id: 1,
     url: '/',
     text: 'Home',
+    component: Home
   },
   {
     id: 2,
     url: '/about',
     text: 'about',
+    component: About
   },
   {
     id: 3,
     url: '/projects',
     text: 'projects',
+    component: Project
   },
   {
     id: 4,
     url: '/contact',
     text: 'contact',
-  },
-  {
-    id: 5,
-    url: '/profile',
-    text: 'profile',
-  },
+    component: Contact
+  }
 ]
 
 export const social = [
